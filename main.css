@@ -1,0 +1,74 @@
+body {
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: 850px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding-bottom: 4em;
+    background-color: #E2E2E2;
+}
+div.container{
+    background-color: aliceblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 400px;
+    width:inherit;
+}
+.linkpic{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding:30px
+}
+.linkpic2{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding:10px;
+    float: left;
+}
+.name{
+    font-size: 20px;
+    text-decoration: none;
+}
+.name:visited, :active, :default{
+    color: black;
+    text-decoration: none;
+}
+li{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 30px;
+    color: rebeccapurple
+}
+h2{
+    text-align: center;
+    font-size: 15px;
+    color: cornflowerblue;
+}
+footer {
+    margin-top: 4rem;
+    cursor:default;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+footer a {
+    text-decoration: none;
+    color: #304174;
+    font-weight: 600;
+}
+footer p {
+    text-align:center;
+	border: none;
+}
